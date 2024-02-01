@@ -1,4 +1,10 @@
 # Getting Started with Create React App
+#output
+
+![Screenshot (13)](https://github.com/shoaibcodez/quadB-Test/assets/91900460/64e15383-f0d1-46a0-9ce1-e4e2b0e3fea6)
+
+
+![Screenshot (14)](https://github.com/shoaibcodez/quadB-Test/assets/91900460/02097385-ac0c-43a9-9930-277ed5881b35)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
