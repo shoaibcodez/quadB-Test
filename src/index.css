@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aad9bb;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #aad9bb;
+    padding: 16px 16px;
+    justify-content: center;
+}
+.details {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #aad9bb;
+    padding: 46px 46px;
+    gap: 20px;
+}
+.deatails-container {
+    display: flex;
+    gap: 10px;
+}
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    object-fit: contain;
+    height: 400px;
+    width: 400px;
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-right: 10px;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.showList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.showCard {
+    margin: 20px 0;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #80bcbd;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.showImg img {
+    object-fit: contain;
+    height: 200px;
+    width: 200px;
+}
+.showInfo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 150px;
+    gap: 5px;
+    justify-content: center;
+}
+.showInfo span {
+    background-color: #aad9bb;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.more-btn {
+    background: #ff4742;
+    border: 1px solid #ff4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.more-btn :hover,
+.more-btn :active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+}
+
+.more-btn :active {
+    opacity: 0.5;
+}
